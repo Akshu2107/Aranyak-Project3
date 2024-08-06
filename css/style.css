@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(255, 218, 145);
+  z-index: 1;
+  position: sticky;
+}
+
+.homepage {
+  padding-top: 63px;
+}
+
+.homepage .row h1 {
+  font-size: 3rem !important;
+}
+
+.text-gradient {
+  background: linear-gradient(top, #86971c 61.46%, #124838 100%);
+  background: linear-gradient(180deg, #86971c 61.46%, #124838 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+.homepage .row .para {
+  margin-bottom: 2.5rem !important;
+  font-size: 1.25rem !important;
+}
+
+.color1 {
+  font-size: 3rem !important;
+  color: rgb(227 164 118) !important;
+  font-weight: 300 !important;
+}
+
+.font1 {
+  color: rgb(227 164 118);
+  font-size: 60px;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.para2 {
+  line-height: 1.9;
+}
+
+.about .card img {
+  border-radius: 40px;
+}
+
+.card-content {
+  position: relative;
+  top: -50px;
+  bottom: 0px;
+  background-color: #fff;
+  border: rgb(227 164 118) solid;
+  overflow: hidden;
+  height: 150px;
+  border-radius: 40px;
+}
+
+.container .card .card-head img {
+  width: 75% !important;
+  border: rgb(227 164 118) solid 1px;
+}
+
+.reviews .head {
+  background-color: rgba(227, 163, 118, 0.493);
+  border-radius: 20px;
+}
+
+.reviews .container-fluid .left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog .row .col .card img {
+  border-radius: 20px;
+}
+
+.blog .row .col .card:hover {
+  border: rgb(227 164 118) solid 2px;
+}
+
+.footer {
+  background-image: url(../img/BOTTOM.png);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer .footer-footer .footer-head {
+  width: 100%;
+}
+
+.footer .footer-footer .footer-body {
+  width: 100%;
+}
+
+.products .container {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+}
+
+.lastfooter {
+  background-color: rgba(0, 0, 0, .33);
+  ;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .card {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about .card {
+    display: ruby;
+    justify-content: left;
+    align-items: start;
+    overflow: hidden;
+  }
+
+  .about .card img {
+    width: 50% !important;
+    justify-content: start;
+    align-items: start;
+    float: left;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    width: 40% !important;
+    height: max-content;
+  }
+
+  .reviews .container-fluid .right {
+    max-width: 50%;
+  }
+
+  .team .container .card {
+    width: 33.33%;
+  }
+}
